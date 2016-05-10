@@ -1,6 +1,6 @@
 body {
-  font-family:'Helvetica';
-  letter-spacing:-5px;
+  font-family:Helvetica, sans-serif;
+  letter-spacing:-0.325em;
   background:#000;
   background-size:100%;
   color:#fff;
@@ -19,8 +19,8 @@ em, a {
 }
 
 a {
-  background:#34d0e7;
-  color:#000;
+  background:#57308b;
+  color:#fff;
   text-decoration:none;
 }
 
@@ -52,4 +52,8 @@ notes {
 /* normally not good, but ok in context of full screen directional navigation */
 :focus {
     outline: 0;
+}
+
+.nobreak {
+  white-space:pre;
 }
